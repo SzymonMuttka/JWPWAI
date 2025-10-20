@@ -1,0 +1,36 @@
+const currency1 = require('./currency1');
+const Currency = require('./currency2');
+let USD = 3.64;
+let JPY = 0.024;
+let EUR = 4.24;
+let GBP = 4.88;
+let UGX = 0.001;
+const currency2USD = new Currency(USD);
+const currency2JPY = new Currency(JPY);
+const currency2EUR = new Currency(EUR);
+const currency2GBP = new Currency(GBP);
+const currency2UGX = new Currency(UGX);
+
+console.log("Moduł currency1:");
+console.log("16 USD to " + currency1.USDToPLN(16) + " PLN.");
+console.log("58,24 PLN to " + currency1.PLNToUSD(58.24) + " USD.\n");
+console.log("16 JPY to " + currency1.JPYToPLN(16) + " PLN.");
+console.log("0,38 PLN to " + currency1.PLNToJPY(0.38) + " JPY.\n");
+console.log("16 EUR to " + currency1.EURToPLN(16) + " PLN.");
+console.log("67,84 PLN to " + currency1.PLNToEUR(67,84) + " EUR.\n");
+console.log("16 GBP to " + currency1.GBPToPLN(16) + " PLN.");
+console.log("78.08 PLN to " + currency1.PLNToGBP(78.08) + " GBP.\n");
+console.log("16 UGX to " + currency1.UGXToPLN(16) + " PLN.");
+console.log("0,02 PLN to " + currency1.PLNToUGX(0.02) + " UGX.\n");
+
+console.log("\n\n\nModuł currency2:");
+console.log("16 USD to " + currency2USD.USDToPLN(16) + " PLN.");
+console.log("58,24 PLN to " + currency2USD.PLNToUSD(58.24) + " USD.\n");
+console.log("16 JPY to " + currency2JPY.JPYToPLN(16) + " PLN.");
+console.log("0,38 PLN to " + currency2JPY.PLNToJPY(0.38) + " JPY.\n");
+console.log("16 EUR to " + currency2EUR.EURToPLN(16) + " PLN.");
+console.log("67,84 PLN to " + currency2EUR.PLNToEUR(67,84) + " EUR.\n");
+console.log("16 GBP to " + currency2GBP.GBPToPLN(16) + " PLN.");
+console.log("78.08 PLN to " + currency2GBP.PLNToGBP(78.08) + " GBP.\n");
+console.log("16 UGX to " + currency2UGX.UGXToPLN(16) + " PLN.");
+console.log("0,02 PLN to " + currency2UGX.PLNToUGX(0.02) + " UGX.\n");
