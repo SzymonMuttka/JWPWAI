@@ -24,7 +24,7 @@ else {
 
 function runWorker(limit) {
     return new Promise((resolve, reject) => {
-        const worker = new Worker("./workerThreads.js", { workerData: { limit } });
+        const worker = new Worker("./sumWorker.js", { workerData: { limit } });
         worker.on("message", resolve);
         worker.on("error", reject);
     });
