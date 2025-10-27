@@ -1,5 +1,6 @@
 import HelloWithProps from './Hello';
 import Counter from './Counter';
+import InputTracker from './InputTracker';
 
 function App(){
   return(
@@ -9,6 +10,8 @@ function App(){
       <HelloWithProps name="Celina" />
 
       <Counter />
+
+      <InputTracker />
     </div>
   );
 }
