@@ -1,4 +1,5 @@
 import HelloWithProps from './Hello';
+import Counter from './Counter';
 
 function App(){
   return(
@@ -6,6 +7,8 @@ function App(){
       <HelloWithProps name="Anna" />
       <HelloWithProps name="Bartek" />
       <HelloWithProps name="Celina" />
+
+      <Counter />
     </div>
   );
 }
