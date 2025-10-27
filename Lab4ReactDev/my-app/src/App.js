@@ -1,6 +1,7 @@
 import HelloWithProps from './Hello';
 import Counter from './Counter';
 import InputTracker from './InputTracker';
+import LoginStatus from './LoginStatus';
 
 function App(){
   return(
@@ -12,6 +13,9 @@ function App(){
       <Counter />
 
       <InputTracker />
+      
+      <LoginStatus isLoggedIn={false}/>
+      <LoginStatus isLoggedIn={true}/>
     </div>
   );
 }
