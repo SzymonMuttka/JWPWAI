@@ -3,6 +3,7 @@ import Counter from './Counter';
 import InputTracker from './InputTracker';
 import LoginStatus from './LoginStatus';
 import TodoList from './TodoList';
+import LoginForm from './LoginForm';
 
 function App(){
   return(
@@ -19,6 +20,8 @@ function App(){
       <LoginStatus isLoggedIn={true}/>
 
       <TodoList todos={['test1', 'test2', 'test3']}/>
+
+      <LoginForm/>
     </div>
   );
 }
