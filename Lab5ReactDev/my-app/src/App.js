@@ -1,6 +1,7 @@
 import Hello from './Hello';
 import ToggleDetails from './ToggleDetails';
 import ScoreDisplay from './ScoreDisplay';
+import TaskList from './Tasklist';
 
 function App(){
   return(
@@ -12,6 +13,8 @@ function App(){
       <ScoreDisplay score={0}/>
       <ScoreDisplay score={60}/>
       <ScoreDisplay score={120}/>
+    
+      <TaskList />
     </div>
   );
 }
