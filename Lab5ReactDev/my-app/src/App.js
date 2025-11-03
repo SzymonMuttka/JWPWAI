@@ -4,6 +4,9 @@ import ScoreDisplay from './ScoreDisplay';
 import TaskList from './Tasklist';
 import UserList from './UserList';
 import TimerCounter from './TimerCounter';
+import HandleClick from './HandleClick';
+import HandleMouseOver from './HandleMouseOver';
+import ShowImage from './ShowImage';
 
 function App(){
   return(
@@ -21,6 +24,12 @@ function App(){
       <UserList />
 
       <TimerCounter />
+
+      <HandleClick />
+
+      <HandleMouseOver />
+
+      <ShowImage />
     </div>
   );
 }
