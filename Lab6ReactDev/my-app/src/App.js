@@ -1,5 +1,6 @@
 import Hello from './Hello';
 import ClickCounter from './ClickCounter';
+import PrimeCalculator from './PrimeCalculator';
 
 function App() {
   return (
@@ -7,6 +8,8 @@ function App() {
       <Hello />
 
       <ClickCounter />
+
+      <PrimeCalculator />
     </div>
   );
 }
