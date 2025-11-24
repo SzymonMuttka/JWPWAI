@@ -2,7 +2,7 @@ exports.poleKwadratu = function(a){
     return a*a;
 }
 
-exports.polePostokata = function(a, b){
+exports.poleProstokata = function(a, b){
     return a*b;
 }
 

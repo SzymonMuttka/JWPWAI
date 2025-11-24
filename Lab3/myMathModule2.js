@@ -4,7 +4,7 @@ MyMathModule.prototype.poleKwadratu = function(a){
     return a*a;
 }
 
-MyMathModule.prototype.polePostokata = function(a, b){
+MyMathModule.prototype.poleProstokata = function(a, b){
     return a*b;
 }
 
@@ -19,3 +19,5 @@ MyMathModule.prototype.poleKola = function(r){
 MyMathModule.prototype.poleRownlegloboku = function(a, h){
     return a*h;
 }
+
+module.exports = exports = MyMathModule;
