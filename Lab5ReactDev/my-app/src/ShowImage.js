@@ -8,7 +8,7 @@ function ShowImage(){
             <button onClick={() => setShow(!show)}>
                 {show ? 'Ukryj zdjęcie' : 'Pokaż zdjęcie'}
             </button><br></br>
-            {show && <img src="/teto.jpg" alt="Teto" width="444" height="444" />}
+            {show && <img src={`${process.env.PUBLIC_URL}/teto.jpg`} alt="Teto" width="444" height="444" />}
         </div>
     )
 }
