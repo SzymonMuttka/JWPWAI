@@ -7,6 +7,9 @@ import TimerCounter from './TimerCounter';
 import HandleClick from './HandleClick';
 import HandleMouseOver from './HandleMouseOver';
 import ShowImage from './ShowImage';
+import LoadDataFromJson from './LoadDataFromJson';
+import UploadFile from './UploadFile';
+import ChangeStyle from './ChangeStyle';
 
 function App(){
   return(
@@ -30,6 +33,12 @@ function App(){
       <HandleMouseOver />
 
       <ShowImage />
+
+      <LoadDataFromJson />
+
+      <UploadFile />
+
+      <ChangeStyle />
     </div>
   );
 }

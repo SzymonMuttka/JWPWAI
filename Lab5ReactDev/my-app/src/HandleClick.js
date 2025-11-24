@@ -1,16 +1,16 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 function HandleClick(){
-    const [counter, setCounter] = useState(0);
+  const [state, setState] = useState({ counter: 0 });
 
-    return(
-        <div>
-            <p>Licznik: {counter}</p>
-            <button onClick={() => setCounter(counter + 1)}>
-                Zwiększ
-            </button>
-        </div>
-    )
+  return(
+    <div>
+      <p>Licznik: {state.counter}</p>
+      <button onClick={() => setState(prev => ({ ...prev, counter: prev.counter + 1 }))}>
+        Zwiększ
+      </button>
+    </div>
+  );
 }
 
 export default HandleClick;

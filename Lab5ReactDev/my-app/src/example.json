@@ -1,14 +1,14 @@
 [
     {
         "id":1,
-        "name":"aaa"
+        "text":"aaa"
     },
     {
         "id":2,
-        "name":"bbb"
+        "text":"bbb"
     },
     {
         "id":3,
-        "name":"ccc"
+        "text":"ccc"
     }
 ]
